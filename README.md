@@ -5,8 +5,8 @@
 ![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/municipes/lexicum_collatio/drupal/core-recommended?style=for-the-badge)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/municipes/lexicum_collatio?style=for-the-badge)
 
-Sunchronìzo lexikà è un modulo Drupal che importa le voci di tassonomia utilizzate dalle scuole.
-Questo modulo usa `drupal/migrate` per importare le voci presenti nel repository [Krène](https://github.com/municipes/krene)
+Lexicum Collatio è un modulo Drupal che importa le voci di tassonomia utilizzate dai Comuni.
+Questo modulo usa `drupal/migrate` per importare le voci presenti nel repository [Origo](https://github.com/municipes/origo)
 
 ## Requisiti
 - Drupal: >= 10
