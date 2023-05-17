@@ -24,7 +24,7 @@
     "prefer-stable": true,
     "require": {
         "drupal/core-recommended": "^10",
-        "municipes/lexika": "^1",
+        "municipes/lexicum": "^1",
         "drupal/migrate_plus": "^6",
         "drupal/migrate_tools": "^6"
     }
