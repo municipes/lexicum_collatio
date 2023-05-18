@@ -1,6 +1,6 @@
 {
     "name": "municipes/lexicum_collatio",
-    "description": "Lexicum Collatio è un modulo Drupal che importa le voci di tassonomia utilizzate dalle scuole.",
+    "description": "Lexicum Collatio è un modulo Drupal che importa le voci di tassonomia utilizzate dai Comuni.",
     "type": "drupal-module",
     "license": "GPL-3.0-only",
     "homepage": "https://github.com/municipes/lexicum_collatio",
