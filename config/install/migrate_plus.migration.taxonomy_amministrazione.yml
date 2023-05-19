@@ -52,7 +52,7 @@ source:
       selector: attributes/weight
     - name: parent_id
       label: 'Id del termine genitore della voce di tassonomia'
-      selector: relationships/parent/data/id
+      selector: relationships/parent/data/0/meta/drupal_internal__target_id
 
   ids:
     tid:
