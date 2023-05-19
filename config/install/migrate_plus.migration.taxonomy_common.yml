@@ -1,11 +1,11 @@
-id: taxonomy_amministrazione
-label: Voci di tassonomia Amministrazione
+id: taxonomy_common
+label: Voci di tassonomia
 migration_group: comune_taxonomy
 migration_tags:
   - json
   - comune
   - taxonomy
-  - amministrazione
+  - taxonomy_common
 
 source:
   plugin: url
@@ -30,6 +30,22 @@ source:
 
   urls:
     - 'https://municipes.github.io/origo/taxonomy/amministrazione.json'
+    - 'https://municipes.github.io/origo/taxonomy/argomenti.json'
+    - 'https://municipes.github.io/origo/taxonomy/categorie_dei_servizi.json'
+    - 'https://municipes.github.io/origo/taxonomy/documenti_albo_pretorio.json'
+    - 'https://municipes.github.io/origo/taxonomy/eventi_della_vita_delle_persone.json'
+    - 'https://municipes.github.io/origo/taxonomy/eventi_della_vita_di_un_impresa.json'
+    - 'https://municipes.github.io/origo/taxonomy/frequenze_di_aggiornamento.json'
+    - 'https://municipes.github.io/origo/taxonomy/licenze.json'
+    - 'https://municipes.github.io/origo/taxonomy/stati_di_una_pratica.json'
+    - 'https://municipes.github.io/origo/taxonomy/temi_di_un_dataset.json'
+    - 'https://municipes.github.io/origo/taxonomy/tipi_di_documento.json'
+    - 'https://municipes.github.io/origo/taxonomy/tipi_di_evento.json'
+    - 'https://municipes.github.io/origo/taxonomy/tipi_di_incarico.json'
+    - 'https://municipes.github.io/origo/taxonomy/tipi_di_luogo.json'
+    - 'https://municipes.github.io/origo/taxonomy/tipi_di_notizia.json'
+    - 'https://municipes.github.io/origo/taxonomy/tipi_punto_di_contatto.json'
+    - 'https://municipes.github.io/origo/taxonomy/tipi_unita_organizzativa.json'
 
   # An xpath-like selector corresponding to the items to be imported.
   item_selector: data
@@ -67,7 +83,7 @@ process:
       method: process
       source: parent_id
     - plugin: migration_lookup
-      migration: taxonomy_amministrazione
+      migration: taxonomy_common
   parent:
     plugin: default_value
     default_value: 0
