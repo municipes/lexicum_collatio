@@ -53,7 +53,7 @@ source:
       selector: attributes/weight
     - name: parent_id
       label: 'Id del termine genitore della voce di tassonomia'
-      selector: relationships/parent/data/id
+      selector: relationships/parent/data/0/meta/drupal_internal__target_id
 
   ids:
     tid:
@@ -68,7 +68,7 @@ process:
       method: process
       source: parent_id
     - plugin: migration_lookup
-      migration: taxonomy_amministrazione
+      migration: taxonomy_documenti_albo_pretorio
   parent:
     plugin: default_value
     default_value: 0
