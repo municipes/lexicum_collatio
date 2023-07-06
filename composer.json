@@ -23,8 +23,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "drupal/core-recommended": "^10",
-        "municipes/lexicum": "^1",
+        "drupal/core-recommended": "9.5",
+        "municipes/lexicum": "0.95",
         "drupal/migrate_plus": "^6",
         "drupal/migrate_tools": "^6"
     }
