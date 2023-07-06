@@ -3,7 +3,7 @@ description: Lexicum Collatio è un modulo Drupal che importa le voci di tassono
 package: "Municipes"
 
 type: module
-core_version_requirement: ^10
+core_version_requirement: ^9.5 || ^10
 dependencies:
   - municipes:lexicum
   - drupal:migrate
